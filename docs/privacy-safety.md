@@ -16,11 +16,11 @@ Before you paste anything into an AI chat, replace real details with brackets:
 
 | Instead of | Type |
 |------------|------|
-| Dylan's teacher Ms. Rivera at Lincoln Elementary | `[Teacher's name]` at `[School name]` |
-| My son Liam, age 6 | `[Child's name]`, age `[age]` |
-| 123 Maple Street, Springfield | `[Address]` |
-| liam.parents@example.com | `[Email address]` |
-| September 14 pickup at 3:15 pm | `[Date]` at `[time]` |
+| My child's teacher at our elementary school | `[Teacher's name]` at `[School name]` |
+| My child, age 6 | `[Child's name]`, age `[age]` |
+| Our home address | `[Address]` |
+| Our family email address | `[Email address]` |
+| Pickup on September 14 at 3:15 pm | `[Date]` at `[time]` |
 
 When the AI gives you an answer, fill in the real details yourself on paper or in your own documents — never inside the chat.
 
@@ -38,7 +38,7 @@ This manual and the Asdale Dynamics, LLC guides provide education only, never me
 
 ## Bedtime stories
 
-It is tempting to ask AI for a story "about my son Liam who loves trains." Do not do that. Ask for "a story about a child who loves trains" and add your child's name yourself when you read it aloud.
+It is tempting to ask AI for a story "about my child who loves trains." Do not do that. Ask for "a story about a child who loves trains" and add your child's name yourself when you read it aloud.
 
 ## Checklist before you hit send
 

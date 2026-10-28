@@ -50,3 +50,9 @@ Copy the answer into a notes app, print it, or write it on one of the printable 
 - Re-read the answer slowly. AI answers sometimes sound confident but include mistakes. Always double-check anything that matters (dates, addresses, medication instructions, school deadlines).
 - Start a fresh chat if the conversation gets confusing.
 - This manual is written so any free AI model can handle the examples. If one answer seems off, try rewording your prompt more simply.
+
+> **Privacy reminder:** never paste your kids' names, your school's name, or any identifying family details into an AI chat. Use placeholders like `[Child's name]` instead.
+
+## Credit
+
+Written by Dylan Asdale, founder of **Asdale Dynamics, LLC** (Indiana, formed October 2026). Copyright (c) 2026 Asdale Dynamics, LLC.

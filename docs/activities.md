@@ -51,6 +51,8 @@ Pick one activity, gather what you need, and do it. You do not have to do all of
 
 Print the "Weekly Activity Planner" from `docs/printable-planners.md` or `site/printable-planners.html` and write one activity per day.
 
+> **Privacy reminder:** never paste your kids' names, your school's name, or any identifying family details into an AI chat. Use placeholders like `[Child's name]` instead.
+
 ## Credit
 
 Written by Dylan Asdale, founder of **Asdale Dynamics, LLC** (Indiana, formed October 2026). Copyright (c) 2026 Asdale Dynamics, LLC.

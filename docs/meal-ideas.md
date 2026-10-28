@@ -46,6 +46,8 @@ Keep a list of meals your family actually enjoyed. Next week, ask the AI for ide
 
 Print the "Weekly Meal Planner" and "Grocery List" from `docs/printable-planners.md` or `site/printable-planners.html`.
 
+> **Privacy reminder:** never paste your kids' names, your school's name, or any identifying family details into an AI chat. Use placeholders like `[Child's name]` instead.
+
 ## Credit
 
 Written by Dylan Asdale, founder of **Asdale Dynamics, LLC** (Indiana, formed October 2026). Copyright (c) 2026 Asdale Dynamics, LLC.

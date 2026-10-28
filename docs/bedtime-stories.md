@@ -43,6 +43,8 @@ AI cannot know your child the way you do. If a story seems too long, too excitin
 
 Print the "Bedtime Story Log" from `docs/printable-planners.md` or `site/printable-planners.html`.
 
+> **Privacy reminder:** never paste your kids' names, your school's name, or any identifying family details into an AI chat. Use placeholders like `[Child's name]` instead.
+
 ## Credit
 
 Written by Dylan Asdale, founder of **Asdale Dynamics, LLC** (Indiana, formed October 2026). Copyright (c) 2026 Asdale Dynamics, LLC.

@@ -1,0 +1,136 @@
+/* Asdale Dynamics, LLC — AI for Family Life beginner site */
+/* Simple, warm, print-friendly styles */
+
+:root {
+  --ink: #1f2937;
+  --muted: #4b5563;
+  --bg: #fafafa;
+  --paper: #ffffff;
+  --accent: #2563eb;
+  --accent-hover: #1d4ed8;
+  --line: #e5e7eb;
+  --soft-bg: #f3f4f6;
+}
+
+* { box-sizing: border-box; }
+html { line-height: 1.6; }
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+header {
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+  padding: 1rem 1.5rem;
+  position: sticky;
+  top: 0;
+}
+
+header .brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--ink);
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+
+header .brand .small { font-weight: 400; font-size: 0.875rem; color: var(--muted); }
+
+nav {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
+
+nav a {
+  color: var(--accent);
+  text-decoration: none;
+  margin-right: 1rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+nav a:hover, nav a:focus { background: var(--soft-bg); outline: 2px solid var(--accent); }
+nav a.active { color: var(--accent-hover); font-weight: 600; }
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1.5rem 1.5rem 3rem;
+}
+
+section { background: var(--paper); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--line); margin-bottom: 1.5rem; }
+
+h1 { font-size: 1.5rem; margin-top: 0; }
+h2 { font-size: 1.25rem; margin: 1.5rem 0 0.5rem; border-bottom: 2px solid var(--soft-bg); padding-bottom: 0.25rem; }
+h3 { font-size: 1.05rem; margin: 1rem 0 0.25rem; }
+
+p { margin: 0 0 1rem; }
+ul, ol { margin: 0 0 1rem 1.25rem; padding-left: 1.25rem; }
+li { margin-bottom: 0.25rem; }
+
+table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.95rem; }
+th, td { border: 1px solid var(--line); padding: 0.5rem; text-align: left; }
+th { background: var(--soft-bg); font-weight: 600; }
+
+.card { background: var(--soft-bg); padding: 1rem; border-radius: 6px; margin: 1rem 0; }
+.card p { margin: 0; }
+
+.golden-rule {
+  background: #fef3c7;
+  border: 1px solid #f59e0b;
+  color: #78350f;
+  padding: 1rem;
+  border-radius: 6px;
+  margin: 1rem 0;
+}
+
+.disclaimer {
+  background: #fee2e2;
+  border: 1px solid #ef4444;
+  color: #7f1d1d;
+  padding: 1rem;
+  border-radius: 6px;
+  margin: 1rem 0;
+}
+
+footer {
+  border-top: 1px solid var(--line);
+  padding: 1.5rem;
+  font-size: 0.875rem;
+  color: var(--muted);
+  text-align: center;
+}
+
+.credit { font-weight: 600; color: var(--ink); }
+
+/* Printable planner page overrides */
+.printable section { break-inside: avoid; }
+.print-table th, .print-table td { border: 1px solid #374151; padding: 0.6rem; }
+.print-table th { background: #e5e7eb; }
+
+/* Print */
+@media print {
+  body { background: #fff; color: #000; }
+  header, nav, footer { display: none; }
+  section { border: none; background: none; box-shadow: none; padding: 0; margin: 0; page-break-inside: avoid; }
+  h2 { border-bottom: 1px solid #000; }
+  .no-print { display: none !important; }
+  a { color: #000; text-decoration: none; }
+}
+
+@page { margin: 1.5cm; }
